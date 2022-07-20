@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WIFI-HACK </string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/awus036neh-llave-de-wifi-usb-alfa-network-320-mw-y-5-dbi-antena.png</normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/awus036neh-llave-de-wifi-usb-alfa-network-320-mw-y-5-dbi-antena.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string extracomment="LEVANTAR THANOS AP WIFI">THANOS</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>../0_PROGRAMACION/RASBERRY_BUTTONS/wifiap2.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>90</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>0</y>
+      <width>321</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string extracomment="ROUTING WIFI">ROUTING</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/router-icon-transparent-26.png</normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/router-icon-transparent-26.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>90</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>130</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string extracomment="CONECTAR WIFI 1">CONNECT &amp;WIFI 1</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/wifi5.png</normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/wifi5.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>70</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>130</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string extracomment="CONNECTAR WIFI 2">CONNECT W&amp;IFI 2</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/wifi5.png</normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/wifi5.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>70</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>130</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string extracomment="SERVER SSH">  S&amp;ERVER SSH</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/ssh.png</normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/ssh.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>70</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>210</y>
+      <width>241</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>MAC-1</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/awus036neh-llave-de-wifi-usb-alfa-network-320-mw-y-5-dbi-antena.png</normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/awus036neh-llave-de-wifi-usb-alfa-network-320-mw-y-5-dbi-antena.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>210</y>
+      <width>241</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 0);
+font: 81 11pt &quot;Open Sans ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>MAC-2</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/awus036neh-llave-de-wifi-usb-alfa-network-320-mw-y-5-dbi-antena.png</normaloff>../0_PROGRAMACION/RASBERRY_BUTTONS/awus036neh-llave-de-wifi-usb-alfa-network-320-mw-y-5-dbi-antena.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>70</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
